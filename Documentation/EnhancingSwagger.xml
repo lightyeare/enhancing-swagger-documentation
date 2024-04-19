@@ -1,0 +1,13 @@
+<Docs>
+    <RequestMembers>
+        <Member name="Status">
+            <summary>(From XML file) Customer's Status. Valid Statuses are "Active" and "Inactive". The "required" notice is produced by MicroElements.Swashbuckle.FluentValidation from my FluentValidation AbstractValidator.</summary>
+        </Member>
+        <Member name="FirstName">
+            <summary>(From XML file) Customer's First Name. "maxLength" note in the Schema is produced by DataAttribute on the property.</summary>
+        </Member>
+        <Member name="LastName">
+            <summary>(From XML file) Customer's Last Name</summary>
+        </Member>
+    </RequestMembers>
+</Docs>
